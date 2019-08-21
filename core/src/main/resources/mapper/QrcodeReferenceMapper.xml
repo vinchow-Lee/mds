@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seehope.mds.core.mapper.QrcodeReferenceMapper">
+  <resultMap id="BaseResultMap" type="com.seehope.mds.core.pojo.QrcodeReference">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    <id column="qrcode_mega_id" jdbcType="INTEGER" property="qrcodeMegaId" />
+    <id column="qrcode_micro_id" jdbcType="INTEGER" property="qrcodeMicroId" />
+  </resultMap>
+</mapper>

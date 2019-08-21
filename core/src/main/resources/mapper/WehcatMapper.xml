@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seehope.mds.core.mapper.WehcatMapper">
+  <resultMap id="BaseResultMap" type="com.seehope.mds.core.pojo.Wehcat">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    <id column="wechat_id" jdbcType="INTEGER" property="wechatId" />
+    <result column="wechat_username" jdbcType="VARCHAR" property="wechatUsername" />
+    <result column="wechat_password" jdbcType="VARCHAR" property="wechatPassword" />
+    <result column="wechat_phone" jdbcType="VARCHAR" property="wechatPhone" />
+    <result column="wechat_imgUrl" jdbcType="VARCHAR" property="wechatImgurl" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    wechat_id, wechat_username, wechat_password, wechat_phone, wechat_imgUrl
+  </sql>
+</mapper>

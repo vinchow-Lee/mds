@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seehope.mds.core.mapper.CustomerLoginLogMapper">
+  <resultMap id="BaseResultMap" type="com.seehope.mds.core.pojo.CustomerLoginLog">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    <id column="cll_id" jdbcType="INTEGER" property="cllId" />
+    <result column="cll_customer_id" jdbcType="INTEGER" property="cllCustomerId" />
+    <result column="cll_time" jdbcType="TIMESTAMP" property="cllTime" />
+    <result column="cll_ip" jdbcType="VARCHAR" property="cllIp" />
+    <result column="cll_type" jdbcType="TINYINT" property="cllType" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    cll_id, cll_customer_id, cll_time, cll_ip, cll_type
+  </sql>
+</mapper>

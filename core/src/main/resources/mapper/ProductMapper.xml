@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seehope.mds.core.mapper.ProductMapper">
+  <resultMap id="BaseResultMap" type="com.seehope.mds.core.pojo.Product">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    <id column="product_id" jdbcType="INTEGER" property="productId" />
+    <result column="product_name" jdbcType="VARCHAR" property="productName" />
+    <result column="one_category_id" jdbcType="INTEGER" property="oneCategoryId" />
+    <result column="two_category_id" jdbcType="INTEGER" property="twoCategoryId" />
+    <result column="product_price" jdbcType="DECIMAL" property="productPrice" />
+    <result column="product_publish" jdbcType="BOOLEAN" property="productPublish" />
+    <result column="product_produce_date" jdbcType="TIMESTAMP" property="productProduceDate" />
+    <result column="product_pic_url" jdbcType="VARCHAR" property="productPicUrl" />
+    <result column="product_descript" jdbcType="LONGVARCHAR" property="productDescript" />
+    <result column="product_indate" jdbcType="TIMESTAMP" property="productIndate" />
+    <result column="product_modified_time" jdbcType="TIMESTAMP" property="productModifiedTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    product_id, product_name, one_category_id, two_category_id, product_price, product_publish, 
+    product_produce_date, product_pic_url, product_descript, product_indate, product_modified_time
+  </sql>
+</mapper>

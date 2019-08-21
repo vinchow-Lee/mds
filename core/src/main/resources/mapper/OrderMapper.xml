@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seehope.mds.core.mapper.OrderMapper">
+  <resultMap id="BaseResultMap" type="com.seehope.mds.core.pojo.Order">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    <id column="order_id" jdbcType="INTEGER" property="orderId" />
+    <result column="order_sn" jdbcType="BIGINT" property="orderSn" />
+    <result column="order_user_id" jdbcType="INTEGER" property="orderUserId" />
+    <result column="order_shipping_user" jdbcType="VARCHAR" property="orderShippingUser" />
+    <result column="order_province" jdbcType="VARCHAR" property="orderProvince" />
+    <result column="order_city" jdbcType="VARCHAR" property="orderCity" />
+    <result column="order_district" jdbcType="VARCHAR" property="orderDistrict" />
+    <result column="order_address" jdbcType="VARCHAR" property="orderAddress" />
+    <result column="order_payment_method" jdbcType="TINYINT" property="orderPaymentMethod" />
+    <result column="order_money" jdbcType="DECIMAL" property="orderMoney" />
+    <result column="order_district_money" jdbcType="DECIMAL" property="orderDistrictMoney" />
+    <result column="order_shipping_money" jdbcType="DECIMAL" property="orderShippingMoney" />
+    <result column="order_payment_money" jdbcType="DECIMAL" property="orderPaymentMoney" />
+    <result column="order_shipping_comp_name" jdbcType="VARCHAR" property="orderShippingCompName" />
+    <result column="order_shipping_sn" jdbcType="VARCHAR" property="orderShippingSn" />
+    <result column="order_create_time" jdbcType="TIMESTAMP" property="orderCreateTime" />
+    <result column="order_shipping_time" jdbcType="TIMESTAMP" property="orderShippingTime" />
+    <result column="order_receive_time" jdbcType="TIMESTAMP" property="orderReceiveTime" />
+    <result column="order_status" jdbcType="INTEGER" property="orderStatus" />
+    <result column="order_point" jdbcType="INTEGER" property="orderPoint" />
+    <result column="order_modified_time" jdbcType="TIMESTAMP" property="orderModifiedTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    order_id, order_sn, order_user_id, order_shipping_user, order_province, order_city, 
+    order_district, order_address, order_payment_method, order_money, order_district_money, 
+    order_shipping_money, order_payment_money, order_shipping_comp_name, order_shipping_sn, 
+    order_create_time, order_shipping_time, order_receive_time, order_status, order_point, 
+    order_modified_time
+  </sql>
+</mapper>

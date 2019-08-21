@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seehope.mds.core.mapper.OrderDetailMapper">
+  <resultMap id="BaseResultMap" type="com.seehope.mds.core.pojo.OrderDetail">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    <id column="od_id" jdbcType="INTEGER" property="odId" />
+    <result column="od_order_id" jdbcType="INTEGER" property="odOrderId" />
+    <result column="od_product_id" jdbcType="INTEGER" property="odProductId" />
+    <result column="od_product_name" jdbcType="VARCHAR" property="odProductName" />
+    <result column="od_product_cnt" jdbcType="INTEGER" property="odProductCnt" />
+    <result column="od_product_price" jdbcType="DECIMAL" property="odProductPrice" />
+    <result column="od_product_totalPrice" jdbcType="DECIMAL" property="odProductTotalprice" />
+    <result column="od_modified_time" jdbcType="TIMESTAMP" property="odModifiedTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    od_id, od_order_id, od_product_id, od_product_name, od_product_cnt, od_product_price, 
+    od_product_totalPrice, od_modified_time
+  </sql>
+</mapper>

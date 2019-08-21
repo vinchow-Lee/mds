@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seehope.mds.core.mapper.AgentMapper">
+  <resultMap id="BaseResultMap" type="com.seehope.mds.core.pojo.Agent">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    <id column="agent_id" jdbcType="INTEGER" property="agentId" />
+    <result column="agent_phone" jdbcType="VARCHAR" property="agentPhone" />
+    <result column="agent_username" jdbcType="VARCHAR" property="agentUsername" />
+    <result column="agent_password" jdbcType="VARCHAR" property="agentPassword" />
+    <result column="agent_addr_id" jdbcType="INTEGER" property="agentAddrId" />
+    <result column="agent_imgUrl" jdbcType="VARCHAR" property="agentImgurl" />
+    <result column="agent_authenticateCode" jdbcType="VARCHAR" property="agentAuthenticatecode" />
+    <result column="agent_area" jdbcType="VARCHAR" property="agentArea" />
+    <result column="agent_balance" jdbcType="DECIMAL" property="agentBalance" />
+    <result column="agent_level" jdbcType="INTEGER" property="agentLevel" />
+    <result column="agent_superiorID" jdbcType="INTEGER" property="agentSuperiorid" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    agent_id, agent_phone, agent_username, agent_password, agent_addr_id, agent_imgUrl, 
+    agent_authenticateCode, agent_area, agent_balance, agent_level, agent_superiorID
+  </sql>
+</mapper>

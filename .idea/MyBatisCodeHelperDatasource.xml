@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="addSerializeUid" value="true" />
+        <option name="commonMapperBaseClass" value="tk.mybatis.mapper.MyMapper" />
+        <option name="generateService" value="true" />
+        <option name="generateServiceInterface" value="true" />
+        <option name="javaMapperPackage" value="com.seehope.mds.core.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/core/src/main/java" />
+        <option name="javaModelPackage" value="com.seehope.mds.core.pojo" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/core/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="core" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="core">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.seehope.mds.core.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/core/src/main/java" />
+                  <option name="javaModelPacakge" value="com.seehope.mds.core.pojo" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/core/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.seehope.mds.core.service" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/core/src/main/java" />
+                  <option name="javaServicePackage" value="com.seehope.mds.core.service.impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/core/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/core/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="mds_test_db:address">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="addr_id" />
+                  <option name="javaModelName" value="Address" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:agent">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="agent_id" />
+                  <option name="javaModelName" value="Agent" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:customer">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="customer_id" />
+                  <option name="javaModelName" value="Customer" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:customer_login_log">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="cll_id" />
+                  <option name="javaModelName" value="CustomerLoginLog" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:customer_point_log">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="cpl_id" />
+                  <option name="javaModelName" value="CustomerPointLog" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:customer_present_log">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="cpl_id" />
+                  <option name="javaModelName" value="CustomerPresentLog" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:order">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="order_id" />
+                  <option name="javaModelName" value="Order" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:order_detail">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="od_id" />
+                  <option name="javaModelName" value="OrderDetail" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:present">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="present_id" />
+                  <option name="javaModelName" value="Present" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:product">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="product_id" />
+                  <option name="javaModelName" value="Product" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:product_category">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="category_id" />
+                  <option name="javaModelName" value="ProductCategory" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:product_distribution">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="distribution_id" />
+                  <option name="javaModelName" value="ProductDistribution" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:qrcode_mega">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="qrcode_mega_id" />
+                  <option name="javaModelName" value="QrcodeMega" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:qrcode_micro">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="qrcode_micro_id" />
+                  <option name="javaModelName" value="QrcodeMicro" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:qrcode_reference">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="QrcodeReference" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:report">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="report_id" />
+                  <option name="javaModelName" value="Report" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:social_userconnection">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="SocialUserconnection" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:warehouse">
+              <value>
+                <TableGenerateConfig>
+                  <option name="javaModelName" value="Warehouse" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="mds_test_db:wehcat">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="wechat_id" />
+                  <option name="javaModelName" value="Wehcat" />
+                  <option name="moduleName" value="core" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="useCommonMapper" value="true" />
+        <option name="xmlMapperPackage" value="mapper" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/core/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

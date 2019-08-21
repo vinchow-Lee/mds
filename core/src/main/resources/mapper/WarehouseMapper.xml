@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seehope.mds.core.mapper.WarehouseMapper">
+  <resultMap id="BaseResultMap" type="com.seehope.mds.core.pojo.Warehouse">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    <id column="w_agent_id" jdbcType="INTEGER" property="wAgentId" />
+    <id column="w_product_id" jdbcType="INTEGER" property="wProductId" />
+    <result column="w_current_cnt" jdbcType="INTEGER" property="wCurrentCnt" />
+    <result column="w_modified_time" jdbcType="TIMESTAMP" property="wModifiedTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    w_agent_id, w_product_id, w_current_cnt, w_modified_time
+  </sql>
+</mapper>

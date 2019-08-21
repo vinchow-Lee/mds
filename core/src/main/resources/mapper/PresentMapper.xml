@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seehope.mds.core.mapper.PresentMapper">
+  <resultMap id="BaseResultMap" type="com.seehope.mds.core.pojo.Present">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    <id column="present_id" jdbcType="INTEGER" property="presentId" />
+    <result column="present_title" jdbcType="VARCHAR" property="presentTitle" />
+    <result column="present_point" jdbcType="INTEGER" property="presentPoint" />
+    <result column="present_imgUrl" jdbcType="VARCHAR" property="presentImgurl" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    present_id, present_title, present_point, present_imgUrl
+  </sql>
+</mapper>

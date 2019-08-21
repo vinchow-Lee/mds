@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seehope.mds.core.mapper.ReportMapper">
+  <resultMap id="BaseResultMap" type="com.seehope.mds.core.pojo.Report">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    <id column="report_id" jdbcType="INTEGER" property="reportId" />
+    <result column="report_custom_id" jdbcType="INTEGER" property="reportCustomId" />
+    <result column="report_agent_id" jdbcType="INTEGER" property="reportAgentId" />
+    <result column="report_qrcode_id" jdbcType="INTEGER" property="reportQrcodeId" />
+    <result column="report_detail" jdbcType="LONGVARCHAR" property="reportDetail" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    report_id, report_custom_id, report_agent_id, report_qrcode_id, report_detail
+  </sql>
+</mapper>

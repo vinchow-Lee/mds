@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.seehope</groupId>
+	<artifactId>mds</artifactId>
+	<version>${project.version}</version>
+	<packaging>pom</packaging>
+	<properties>
+		<project.version>0.0.1-SNAPSHOT</project.version>
+	</properties>
+
+	<!-- dependencyManagement用来管理依赖版本号 -->
+	<dependencyManagement>
+		<!--引入spring io 以及 spirng cloud 项目进行依赖管理 -->
+		<dependencies>
+			<dependency>
+				<groupId>io.spring.platform</groupId>
+				<artifactId>platform-bom</artifactId>
+				<version>Brussels-SR4</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>Dalston.SR2</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<modules>
+		<module>browser</module>
+		<module>custom</module>
+		<module>agent</module>
+		<module>core</module>
+	</modules>
+</project>

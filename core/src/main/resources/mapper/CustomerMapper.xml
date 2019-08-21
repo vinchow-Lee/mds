@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seehope.mds.core.mapper.CustomerMapper">
+  <resultMap id="BaseResultMap" type="com.seehope.mds.core.pojo.Customer">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    <id column="customer_id" jdbcType="INTEGER" property="customerId" />
+    <result column="customer_username" jdbcType="VARCHAR" property="customerUsername" />
+    <result column="customer_phone" jdbcType="VARCHAR" property="customerPhone" />
+    <result column="customer_address" jdbcType="VARCHAR" property="customerAddress" />
+    <result column="customer_imgUrl" jdbcType="VARCHAR" property="customerImgurl" />
+    <result column="customer_piont" jdbcType="INTEGER" property="customerPiont" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    customer_id, customer_username, customer_phone, customer_address, customer_imgUrl, 
+    customer_piont
+  </sql>
+</mapper>

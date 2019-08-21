@@ -1,0 +1,5 @@
+# Project exclude paths
+/agent/target/
+/browser/target/
+/core/target/
+/custom/target/

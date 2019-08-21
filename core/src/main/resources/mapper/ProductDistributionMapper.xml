@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seehope.mds.core.mapper.ProductDistributionMapper">
+  <resultMap id="BaseResultMap" type="com.seehope.mds.core.pojo.ProductDistribution">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    <id column="distribution_id" jdbcType="INTEGER" property="distributionId" />
+    <result column="distribution_qrcode_id" jdbcType="INTEGER" property="distributionQrcodeId" />
+    <result column="distribution_agent_id" jdbcType="INTEGER" property="distributionAgentId" />
+    <result column="distribution_action" jdbcType="BOOLEAN" property="distributionAction" />
+    <result column="distribution_scan_time" jdbcType="TIMESTAMP" property="distributionScanTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    distribution_id, distribution_qrcode_id, distribution_agent_id, distribution_action, 
+    distribution_scan_time
+  </sql>
+</mapper>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seehope.mds.core.mapper.CustomerPointLogMapper">
+  <resultMap id="BaseResultMap" type="com.seehope.mds.core.pojo.CustomerPointLog">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    <id column="cpl_id" jdbcType="INTEGER" property="cplId" />
+    <result column="cpl_customer_id" jdbcType="INTEGER" property="cplCustomerId" />
+    <result column="cpl_source" jdbcType="TINYINT" property="cplSource" />
+    <result column="cpl_refer_number" jdbcType="INTEGER" property="cplReferNumber" />
+    <result column="cpl_change_point" jdbcType="SMALLINT" property="cplChangePoint" />
+    <result column="cpl_create_time" jdbcType="TIMESTAMP" property="cplCreateTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    cpl_id, cpl_customer_id, cpl_source, cpl_refer_number, cpl_change_point, cpl_create_time
+  </sql>
+</mapper>

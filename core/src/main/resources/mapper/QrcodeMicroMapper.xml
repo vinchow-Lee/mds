@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seehope.mds.core.mapper.QrcodeMicroMapper">
+  <resultMap id="BaseResultMap" type="com.seehope.mds.core.pojo.QrcodeMicro">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    <id column="qrcode_micro_id" jdbcType="INTEGER" property="qrcodeMicroId" />
+    <result column="qrcode_micro_product_id" jdbcType="INTEGER" property="qrcodeMicroProductId" />
+    <result column="qrcode_micro_url" jdbcType="CHAR" property="qrcodeMicroUrl" />
+    <result column="qrcode_micro_accessed" jdbcType="BOOLEAN" property="qrcodeMicroAccessed" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Aug 21 10:45:48 CST 2019.-->
+    qrcode_micro_id, qrcode_micro_product_id, qrcode_micro_url, qrcode_micro_accessed
+  </sql>
+</mapper>
